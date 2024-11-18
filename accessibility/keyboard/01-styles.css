@@ -697,13 +697,13 @@ ul.row {
   }
 
   /* Display title and background on hover and focus */
-  .card-work .card-title a:hover {
+  .card-work:hover .card-title a {
     opacity: 1;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7); /* Dark overlay background */
   }
 
-  .card-work .card-title a:focus {
+  .card-work:focus .card-title a {
     opacity: 1;
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.7);
